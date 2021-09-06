@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "91750909459",
+    "project_id": "gideonfingerprint",
+    "storage_bucket": "gideonfingerprint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91750909459:android:be440030a8ca84f93fa1e6",
+        "android_client_info": {
+          "package_name": "com.example.gideonfingerprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91750909459-vql1mal9i94f7qgt1pnu6kt44tto5ehh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB6-Pmgwy27ZLALMqOuYC3TLhy-kmJJ4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91750909459-vql1mal9i94f7qgt1pnu6kt44tto5ehh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
