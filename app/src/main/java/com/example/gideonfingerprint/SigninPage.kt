@@ -20,9 +20,8 @@ import androidx.core.app.ActivityCompat
 
 class SigninPage : AppCompatActivity() {
 
-    private lateinit var emailEt: EditText
-    private lateinit var passwordEt: EditText
-    private lateinit var loginBtn: Button
+
+    private lateinit var loginBtn1: Button
 
 
 
@@ -55,20 +54,12 @@ class SigninPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin_page)
 
-        emailEt = findViewById(R.id.email)
-        passwordEt = findViewById(R.id.password)
+
+        loginBtn1=findViewById(R.id.start)
+        loginBtn1.setOnClickListener {
 
 
 
-        loginBtn.setOnClickListener {
-            var email: String = emailEt.text.toString()
-            var password: String = passwordEt.text.toString()
-
-            if (TextUtils.isEmpty(email) || TextUtils.isEmpty(password)) {
-                Toast.makeText(this@SigninPage, "Please fill all the fields", Toast.LENGTH_LONG).show()
-            } else {
-
-            }
         }
 
         checkBiometricSupport()
